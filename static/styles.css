@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  color: #414141;               /* Dark gray */
+  font-size: 18px;
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+.content {
+    margin:0 auto;
+    width: 700px;
+    height: 280px;
+    background-color: #FC5105;
+    padding: 20px;
+    position:relative;
+    top: 100px;
+    border-radius: 10px;
+}
+.success {
+    position: relative;
+    padding: 10px;
+    background-color: #085506;
+    color: white;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.success p {
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Caveat Brush', cursive;
+}
+.footer {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+  }
+form {
+    text-align: center;
+}
+input {
+    text-align: left;
+    font-size: 1.5em;
+    padding: 5px;
+    margin: 10px 5px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica", "Arial", sans-serif;
+}
+h1 {
+    text-align: center;
+    font-size: 2em;
+    padding: 25px 0px;
+    text-transform: uppercase;
+}
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+    padding-top:10px;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+    color: #414141;               /* Dark gray */
+}
+a:visited {
+    color: #414141;               /* Dark gray */
+}
+a:hover {
+    color:red;
+}
+a:active {
+    color: #414141;               /* Dark gray */
+}
+p {
+    font-size: 0.9em;
+}

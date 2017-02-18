@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset="utf-8">
+        <title>Superhero Nerd Name Generator</title>
+        <link rel='stylesheet' href='static/styles.css'/>
+        <link href="https://fonts.googleapis.com/css?family=Caveat+Brush" rel="stylesheet">
+        <link rel='shortcut icon' href='static/favicon.ico' type='image/x-icon' />
+    </head>
+    <body>
+        <div class="content">
+            <h1>Superhero Nerd Name Generator</h1>
+            <div class="form">
+                <form role="form" method='POST' action='/'>
+                    <input type="radio" name="gender" value="b" checked> Boy
+                    <input type="radio" name="gender" value="g"> Girl<br />
+                    <input type="submit" value="Generate">
+                </form>
+            </div>
+            {% if generatedname %}
+                <div class="success">
+                        <h2>Your generated superhero nerd name</h2>
+                        <p>{{ generatedname }}</p>
+                </div>
+            {% endif %}
+        </div>
+        <div class="footer">
+            <p>Code at <a target="_blank" href="https://github.com/orjanv">GitHub</a> - by <a href="http://twitter.com/hoyd">hoyd</a></p>
+        </div>
+    </body>
+</html>
